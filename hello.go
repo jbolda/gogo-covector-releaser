@@ -3,9 +3,10 @@ package main
 import (
 	"fmt"
 
-	"rsc.io/quote"
+	"rsc.io/sampler"
 )
 
 func main() {
-	fmt.Println(quote.Go())
+	fmt.Println(sampler.Hello())
+	fmt.Println(sampler.Glass())
 }
