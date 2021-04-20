@@ -5,7 +5,7 @@
     "gogo-covector-releaser": {
       "path": ".",
       "version": true,
-      "getPublishedVersion": "git tag v${ pkgFile.version } 2>/dev/null || echo v${ pkgFile.version }",
+      "getPublishedVersion": "git tag v${ pkgFile.version } 2>/dev/null || echo ${ pkgFile.version }",
       "publish": [
         "git tag -a -m  \"${ pkgFile.name } v${ pkgFile.version }\" v${ pkgFile.version }",
         "goreleaser release"
