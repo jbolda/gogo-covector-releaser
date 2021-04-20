@@ -1,3 +1,2 @@
 status = ["ready"]
 pr_status = ["covector-status"]
-use_squash_merge = true
