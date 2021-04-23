@@ -5,7 +5,10 @@
       "path": "./VERSION",
       "version": true,
       "getPublishedVersion": "git tag -a -m  \"${ pkgFile.name } v${ pkgFile.version }\" v${ pkgFile.version } 2>/dev/null || echo ${ pkgFile.version }",
-      "publish": "goreleaser release --release-notes < echo -e \"${ pkg.changelog }\""
+      "publish": [
+        "CHANGELOG=\"${ pkg.changelog }\"",
+        "goreleaser release --release-notes < $CHANGELOG"
+      ]
     }
   }
 }
