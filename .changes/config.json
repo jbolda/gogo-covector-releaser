@@ -1,6 +1,5 @@
 {
   "gitSiteUrl": "https://github.com/jbolda/gogo-covector-releaser/",
-  "pkgManagers": {},
   "packages": {
     "gogo-covector-releaser": {
       "path": "./VERSION",
