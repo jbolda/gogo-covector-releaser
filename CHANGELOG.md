@@ -1,5 +1,10 @@
 # Changelog
 
+## \[0.0.5]
+
+- Trying to force using the shell for the changelog pipe.
+  - [6af7824](https://github.com/jbolda/gogo-covector-releaser/commit/6af78241efe928ff362e0835866cac6524d7b558) fix: changelog pipe to file on 2021-04-23
+
 ## \[0.0.4]
 
 - Use generic VERSION file and pipe changelog into goreleaser (this should show covector changelog notes in the Github Release).
