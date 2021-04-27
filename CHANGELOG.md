@@ -1,5 +1,27 @@
 # Changelog
 
+## \[0.0.6]
+
+- Remove the `echo -e` part since it doesn't seem to parse "correctly". Maybe add some formatting [amazingness](https://www.jacobbolda.com) to see how it parses things.
+
+- boop once
+
+- boop twice
+
+- boop thrice
+  - ice
+  - ice
+  - 👶
+
+\#codeblock
+
+```toml
+things = 'boop'
+```
+
+- [c3d1ef9](https://github.com/jbolda/gogo-covector-releaser/commit/c3d1ef9980ef359b1ca9fa975260579f1a3c2bcd) chore: drop echo -e on 2021-04-27
+- [709170f](https://github.com/jbolda/gogo-covector-releaser/commit/709170fabaa0a43443b60f35b54a7289bb42edc6) fix: change file empty derp on 2021-04-27
+
 ## \[0.0.5]
 
 - Trying to force using the shell for the changelog pipe.
